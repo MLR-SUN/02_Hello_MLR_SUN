@@ -56,8 +56,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="show_hello_yourname" destination="OZ9-7p-Mqe" id="ipc-Fr-aZc"/>
-                        <outlet property="text_yourname" destination="c2P-bh-doe" id="roO-K5-Z46"/>
+                        <outlet property="show" destination="OZ9-7p-Mqe" id="KfP-Hr-obH"/>
+                        <outlet property="yourname" destination="c2P-bh-doe" id="jlI-lV-aVL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
