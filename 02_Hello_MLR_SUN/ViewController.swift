@@ -24,10 +24,14 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var show: UILabel!
     
+    @IBOutlet weak var show_image: UIImageView!
+    
     @IBAction func onClick(_ sender: UIButton) {
         let str1 = "Hello~"
         let str2 = yourname.text
         show.text = str1 + str2!
+        show_image.image = UIImage(named: "hello.png")
+        
     }
 }
 
