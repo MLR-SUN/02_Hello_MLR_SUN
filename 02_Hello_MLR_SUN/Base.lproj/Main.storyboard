@@ -35,7 +35,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qvf-mO-FH1">
                                 <rect key="frame" x="171" y="108" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="請點擊"/>
+                                <state key="normal" title="送出"/>
                                 <connections>
                                     <action selector="onClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gly-Qv-rEr"/>
                                 </connections>
@@ -57,6 +57,7 @@
                     </view>
                     <connections>
                         <outlet property="show" destination="OZ9-7p-Mqe" id="KfP-Hr-obH"/>
+                        <outlet property="show_image" destination="M2U-NE-Qr9" id="9OF-UB-s97"/>
                         <outlet property="yourname" destination="c2P-bh-doe" id="jlI-lV-aVL"/>
                     </connections>
                 </viewController>
